@@ -25,9 +25,9 @@ MEDIA_DIR=os.path.join(BASE_DIR,'media')
 SECRET_KEY = '@j^#j@58zg-$crwglh#hl#_=!))*qm)n3zju7@w9=!loq8wel-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['192.168.1.66', '127.0.0.1']
+ALLOWED_HOSTS = ['192.168.1.66', '127.0.0.1',"gearupjob.herokuapp.com"]
 
 
 # Application definition
